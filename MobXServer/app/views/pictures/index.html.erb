@@ -1,0 +1,15 @@
+<center><h1>Latest</h1></center>
+
+<% @pictures.each do |picture| %>
+
+
+
+<%= image_tag 'pictures/' << picture.file_name %><br>
+
+Owner: <%=h picture.owner %><br>
+Note:<%=h picture.note %>
+<hr>
+
+<% end %>
+
+<br />

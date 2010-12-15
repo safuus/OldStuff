@@ -1,0 +1,24 @@
+<h1>Editing picture</h1>
+
+<% form_for(@picture) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :file_name %><br />
+    <%= f.text_field :file_name %>
+  </p>
+  <p>
+    <%= f.label :owner %><br />
+    <%= f.text_field :owner %>
+  </p>
+  <p>
+    <%= f.label :note %><br />
+    <%= f.text_field :note %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @picture %> |
+<%= link_to 'Back', pictures_path %>

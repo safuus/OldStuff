@@ -1,0 +1,18 @@
+<p>
+  <b>File name:</b>
+  <%=h @picture.file_name %>
+</p>
+
+<p>
+  <b>Owner:</b>
+  <%=h @picture.owner %>
+</p>
+
+<p>
+  <b>Note:</b>
+  <%=h @picture.note %>
+</p>
+
+
+<%= link_to 'Edit', edit_picture_path(@picture) %> |
+<%= link_to 'Back', pictures_path %>

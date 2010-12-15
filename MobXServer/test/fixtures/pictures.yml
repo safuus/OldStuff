@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  file_name: test_one.jpg
+  owner: 1
+  note: This is test one sent by one owner
+
+two:
+  file_name: test_two.jpg   
+  owner: 2
+  note: this is test two sent by another owner 2
+  
+
+three:
+  file_name: test_three.jpg
+  owner: 1
+  note: this is test three sent by the first owner again
